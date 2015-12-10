@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ARUN_JAYABALAN</Machine>
+    <WindowsUser>ARUN JAYABALAN</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d0b1bf03-43b0-42a5-a6ec-fa57f7ac3f72</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\test.c">
+      <PackagePath>test.c</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\arun jayabalan\documents\visual studio 2015\Projects\Test\Test\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

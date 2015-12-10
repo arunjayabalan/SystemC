@@ -1,0 +1,96 @@
+﻿Build started 15-09-2015 17:07:12.
+     1>Project "c:\Users\arun jayabalan\documents\visual studio 2015\Projects\Lab1\Lab1\Lab1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+         Unknown compiler version - please run the configure tests and report the results
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\arun jayabalan\documents\visual studio 2015\Projects\Lab1\Debug\Lab1.exe" /INCREMENTAL /NOLOGO systemc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\arun jayabalan\documents\visual studio 2015\Projects\Lab1\Debug\Lab1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\arun jayabalan\documents\visual studio 2015\Projects\Lab1\Debug\Lab1.lib" /MACHINE:X86 /vmg Debug\Source.obj
+     1>LINK : warning LNK4044: unrecognized option '/vmg'; ignored
+     1>systemc.lib(sc_object.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_module_name.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_simcontext.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_module.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_ver.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_report_handler.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_attribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_mempool.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_object_manager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_phase_callback_registry.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_utils_ids.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_cor_fiber.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_except.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_report.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_export.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_process.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_time.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_pq.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_event.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_wait.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_list.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_module_registry.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_name_gen.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_port.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_spawn_options.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_reset.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_thread_process.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_cthread_process.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_method_process.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_prim_channel.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_nbdefs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_sensitive.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_stop_here.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_hash.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_interface.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_event_finder.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: bool __thiscall std::ios_base::good(void)const " (?good@ios_base@std@@QBE_NXZ) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: int __thiscall std::ios_base::flags(void)const " (?flags@ios_base@std@@QBEHXZ) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(void)const " (?width@ios_base@std@@QBE_JXZ) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(__int64)" (?width@ios_base@std@@QAE_J_J@Z) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ) already defined in systemc.lib(sc_object.obj)
+     1>msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ) already defined in systemc.lib(sc_object.obj)
+     1>libcpmtd.lib(ios.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(ios.obj) : error LNK2005: "public: static void __cdecl std::ios_base::_Addstd(class std::ios_base *)" (?_Addstd@ios_base@std@@SAXPAV12@@Z) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(ios.obj) : error LNK2005: "private: static void __cdecl std::ios_base::_Ios_base_dtor(class std::ios_base *)" (?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z) already defined in msvcprtd.lib(locale0_implib.obj)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPAV_Locimp@12@_N@Z) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@_Locinfo@std@@SAXPAV12@PBD@Z) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo *)" (?_Locinfo_dtor@_Locinfo@std@@SAXPAV12@@Z) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(cout.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(cerr.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(iosptrs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(locale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(xlock.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QAE@XZ) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPBD@Z) already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(xlocale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(xdateord.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(xwctomb.obj) : error LNK2005: __Getcvt already defined in msvcprtd.lib(MSVCP140D.dll)
+     1>libcpmtd.lib(winapisupp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(StlCompareStringA.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(winapinls.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(StlCompareStringW.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(StlLCMapStringW.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>libcpmtd.lib(StlLCMapStringA.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_main.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>systemc.lib(sc_main_main.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MTd_StaticDebug' doesn't match value 'MDd_DynamicDebug' in Source.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>c:\users\arun jayabalan\documents\visual studio 2015\Projects\Lab1\Debug\Lab1.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "c:\Users\arun jayabalan\documents\visual studio 2015\Projects\Lab1\Lab1\Lab1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.93
